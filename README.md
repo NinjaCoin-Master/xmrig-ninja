@@ -19,7 +19,7 @@ XMRig High performance, open source, cross platform RandomX, CryptoNight, AstroB
 ## Download
 * Binary releases: https://github.com/xmrig/xmrig/releases
 * Git tree: https://github.com/xmrig/xmrig.git
-  * Clone with `git clone https://github.com/ninjacoinm-master/xmrig-ninja` :hammer: [Build instructions](https://github.com/xmrig/xmrig/wiki/Build).
+  * Clone with `git clone https://github.com/ninjacoin-master/xmrig-ninja` :hammer: [Build instructions](https://github.com/xmrig/xmrig/wiki/Build).
 
 ## Usage
 The preferred way to configure the miner is the [JSON config file](src/config.json) as it is more flexible and human friendly. The command line interface does not cover all features, such as mining profiles for different algorithms. Important options can be changed during runtime without miner restart by editing the config file or executing API calls.
