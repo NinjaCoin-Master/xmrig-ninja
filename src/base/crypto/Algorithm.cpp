@@ -213,7 +213,7 @@ size_t xmrig::Algorithm::l3() const
             return oneMiB / 4;
 			
 			 case AR2_NINJA:
-            return oneMiB / 8;
+            return oneMiB / 4;
 
         default:
             break;

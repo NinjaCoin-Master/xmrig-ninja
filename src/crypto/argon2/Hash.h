@@ -44,7 +44,7 @@ inline void single_hash(const uint8_t *__restrict__ input, size_t size, uint8_t 
         argon2id_hash_raw_ex(4, 256, 1, input, size, input, 16, output, 32, ctx[0]->memory);
     }
  else if (ALGO == Algorithm::AR2_NINJA) {
-        argon2id_hash_raw_ex(4, 128, 1, input, size, input, 16, output, 32, ctx[0]->memory);
+        argon2id_hash_raw_ex(4, 256, 1, input, size, input, 16, output, 32, ctx[0]->memory);
     }
 }
 
